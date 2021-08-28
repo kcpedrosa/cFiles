@@ -1,0 +1,16 @@
+animals(A1,A2,A3,A4,A5) :-
+    animal(A1),
+    animal(A2),
+    not(A1 = A2),
+    animal(A3),
+    not(A1 = A3),
+    not(A2 = A3),
+    animal(A4),
+    not(A1 = A4),
+    not(A2 = A4),
+    not(A3 = A4),
+    animal(A5),
+    not(A1 = A5),
+    not(A2 = A5),
+    not(A3 = A5),
+    not(A4 = A5).

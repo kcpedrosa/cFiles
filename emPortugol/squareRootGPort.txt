@@ -1,0 +1,23 @@
+algoritmo squareroot;
+
+variáveis
+    number: inteiro;
+    root: inteiro;
+    x: inteiro;
+fim-variáveis
+
+início
+    root := 2;
+    imprima("Enter the number you want to know the sqrt :");
+    number := leia();
+    enquanto x*x <> number e x <= number faça
+        x := x+1;
+    fim-enquanto
+
+    se x*x = number então
+        imprima("The square root of  ", number, " is ", x );
+    fim-se
+    se x >= number então
+        imprima("Square root not found ...");
+    fim-se
+fim

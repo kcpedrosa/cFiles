@@ -1,0 +1,80 @@
+/*----------------Includes----------------*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/*-------------Chamando funcao-------------*/
+int vaquinha_a(int a, int b, int c);
+int vaquinhab(int a, int b, int c);
+
+/*----------------Programa----------------*/
+int main(void)
+{
+    /*-------------Variaveis--------------*/
+    int a, b, c;
+    int j, x, y; // j= contador de testes / x= numero de expeimentos iguais / y numero de experimentos diferentes
+    int vacaa, vacab;
+
+    x=0;
+    y=0;
+    srand(time(NULL)); // Funcao para que os aleatorios nao sejam iguais
+
+    for(j=1; j<=100000; j++) //ciclo ate 100.000 sendo que o j ficara no final com 100.001
+    {
+        a = 1 + rand() % 6; // aleatoriedade: 0 a 5 -> 1 a 6
+        b = rand() % 101; // aleatoriedade: 0 a 100
+        c = -40 + rand() % 51; // aleatoriedade 0 a 50 -> -40 a 10
+
+        vacaa= vaquinha_a(a, b, c);
+        vacab= vaquinhab(a, b, c);
+
+
+        if(vacaa==vacab)
+            x++;
+        if(vacaa!=vacab)
+            y++;
+    }
+    j--;
+
+    printf("Total: %i interações\n", j);
+    printf("Funções A e B retornaram o mesmo valor em: %i experimentos\n", x);
+    printf("Funções A e B retornaram diferente em: %i experimentos\n", y);
+
+    return 0;
+}
+
+/*------------Funcao predefinida------------*/
+int vaquinha_a(int a, int b, int c)
+{
+    if(a <= 6 && a > 4)
+        if(b < 40)
+            if(b < c)
+                return 1;
+            else
+                return 0;
+        else
+           if(c >= a)
+              return 1;
+          else
+             return 0;
+    else
+        if(a == 6)
+            return 1;
+        else
+            if(a == 4)
+                if(c < b)
+                    return 1;
+                else
+                    return 0;
+            else
+                return 0;
+}
+
+/*------------Funcao predefinida------------*/
+int vaquinhab(int a, int b, int c)
+{
+    if((4<a && a<=6 && b<40 && b<c) || (4<a && a<=6 && b>=40 && c>=a) || (a==4 && c<b))  /* modificar apenas essa linha! */
+         return 1;
+    else
+         return 0;
+}

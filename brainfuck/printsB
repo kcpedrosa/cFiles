@@ -1,0 +1,24 @@
+++++++
+[
+>+++++++++++
+<-
+]
+>.
+
+//explanation:
+//the six first + acts as a controller, you have 6 in first cell
+//the program ads eleven + six times in a memory cell (the second cell)
+//<- decrements one + in the first cell, when it reaches zero it stops
+//Then you move the pointer  to the second cell with > and . prints
+//tha value there [ASCII value], which is 66 which translates to capital letter B*/
+
+++++++
+[
+>+++++++++++
+<-
+]
+>++.
+
+
+//same as above but > ++ .
+//add two ++ to second cell and prints D capital letter

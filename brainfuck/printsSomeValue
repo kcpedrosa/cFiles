@@ -1,0 +1,6 @@
+>++++ ++++  //c1 = 8 and this will be our loop counter again
+[
+< +++ ++++  //Add 7 to c0
+> -        //Subtract 1 from c1
+]//add 1 to c0 thats 57 that translates to 9
+<+ . 

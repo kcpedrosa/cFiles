@@ -1,0 +1,31 @@
+algoritmo raiz;
+
+variáveis
+
+numero : real;
+y : real;
+p : real;
+
+fim-variáveis
+
+início
+
+    imprima("De que numero deseja obter a raiz:");
+    numero := leia();    
+    imprima("A raiz de numero eh:", raiz(numero)); 
+
+fim
+
+função raiz(numero: real) : real
+
+início
+
+    y := numero;
+
+    enquanto (numero - p) > 0.0001 faça
+        numero := ( numero + p)/2;
+        p := y / numero;
+        fim-enquanto
+
+        retorne numero;
+fim

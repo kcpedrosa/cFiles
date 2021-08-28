@@ -1,0 +1,33 @@
+/* Um cupido que encontra casais!! Neste programa duas pessoas vão ser escolhidas ao acaso de uma lista de 10 nomes, e será impresso na tela "Pessoa1 gosta de Pessoa2" */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void)
+{
+    char n1[10][20];
+    int i, k, w;
+
+    printf("Cupido que encontra casais. Digite 10 nomes:\n");
+    for(i=0; i<10; i++)
+    {
+        printf("Nome %i:", i+1);
+        scanf("%s", n1[i]);
+    }
+
+    srand(time(NULL));
+
+    k = rand() % 10;
+    w= rand() % 10;
+
+    while(k==w)
+    {
+        w= rand() % 10;
+    }
+
+    printf("%s gosta de %s\n", n1[k], n1[w]);
+//    printf("O nome 3 eh: %s", n1[3]);
+
+    return 0;
+}

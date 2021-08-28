@@ -1,0 +1,118 @@
+/* *********************************************************************** *
+*    PROGRAM_NAME, VERSION                                                 *
+*    BRIEF_DESCRIPTION                                                     *
+*                                                                          *
+*  Copyright (C) 2019 by Joao Pedro Henderson Sarruf                       *
+*                                                                          *
+*    This program is free software; you can redistribute it and/or modify  *
+*    it under the terms of the GNU General Public License as published by  *
+*    the Free Software Foundation; either version 2 of the License, or     *
+*    (at your option) any later version.                                   *
+*                                                                          *
+*    This program is distributed in the hope that it will be useful,       *
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+*    GNU General Public License for more details.                          *
+*                                                                          *
+*    You should have received a copy of the GNU General Public License     *
+*    along with this program; if not, write to the                         *
+*    Free Software Foundation, Inc.,                                       *
+*    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+*                                                                          *
+*  To contact the author, please write to:                                 *
+*  Name: Joao Pedro Henderson Sarruf <joaopsarruf@gmail.com>               *
+*  Webpage: http://beco.poli.br/~username                                  *
+*  Phone: (81) 98652-3440                                                  *
+* ************************************************************************ *
+* 
+*/
+
+% O perigo o aguarda á frente,  a segurança ficou atrás
+% Duas de nós o ajudaremos no que quer encontrar
+% Uma das sete te deixara prosseguir
+% A outra levara de volta quem a beber
+% Duas de nos conterão vinho de urtigas
+% três de nos aguardam em fila para o matar
+% Escolha, ou ficara aqui para sempre
+% E para ajuda-lo, lhe damos quatro pistas:
+% A primeira, por mais dissimulado que seja o veneno, voce sempre encontrara um à esquerda de um vinho de urtigas.
+% A segunda,  são diferentes as garrafas de cada extremidade, mais se voce quiser avançar nenhuma é sua amiga
+% A terceira, é visivel que temos tamanhos diferentes, nem a anâ nem a gigante leva a morte no bojo
+% A quarta, a segunda è esquerda e a segunda a direita são gêmeas ao paladar, embora diferentes à vista
+%
+% -------------------------------------------------------------------------
+%
+%         
+%
+% =========================================================================
+%
+% Hermione deixou escapar um grande suspiro e harry, perplexo viu que ela sorria, a última coisa que ele tinha voltade de fazer
+% - GENIAL - disse - ISTO NÃO É MÁGIA, É LÓGICA...
+%
+% =========================================================================
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Representa cada poção como um elemento de uma lista
+% cada elemento da lista é uma poção
+% A FRENTE: (1)
+% VOLTA:    (1)
+% VINHO : VINHO DE URTIGA (2)
+% VENENOS:  (3)
+%
+% Uma lista é valida se tiver o numero correto de cada poção
+
+is_valid(PocaoList):-
+     permutation([afrente, volta, vinho, vinho, veneno, veneno, veneno], PocaoList).
+
+ %%% PRIMEIRA DICA %%%
+ pista1([veneno,vinho|Rest]):-
+     pista1(Rest).
+
+ pista1([Pocao|Rest]):-
+      Pocao \=vinho,
+      pista1(Rest).
+ pista1([]).
+
+ 
+ %%% SEGUNDA DICA %%%
+ 
+ pista2([Primeira|Rest]):-
+     append(_,[Ultima],Rest),
+     Primeira \= Ultima,
+     Primeira \= afrente,
+     Ultima \= afrente.
+
+ 
+  maior(5).
+  menor(2).
+
+
+%%% TERCEIRA DICA %%%
+  pista3(List):-
+     maior(MaiorNum),
+     menor(MenorNum),
+     nth0(MaiorNum, List, MaiorPocao),
+     nth0(MenorNum, List, MenorPocao),
+     MaiorPocao \= veneno,
+     MenorPocao \= veneno.
+
+
+ %%% QUARTA DICA %%%
+  pista4(List):-
+      nth1(2, List, SegundaPocao),
+      nth1(6, List, SextaPocao),
+      SegundaPocao = SextaPocao.
+
+%==============================================================
+%                     Solucao
+%=============================================================
+ 
+ solucao(Pocao):-
+     is_valid(Pocao),
+      pista1(Pocao),
+      pista2(Pocao),
+      pista3(Pocao),
+      pista4(Pocao).
+                 
+   

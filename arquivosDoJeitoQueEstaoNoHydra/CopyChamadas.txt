@@ -1,0 +1,682 @@
+kcp@hydra:~/chamada2020s2/monitoria/informatica (master, [])
+[20210822.170434, !3149]$ cat  2020s2-10-informatica.md
+# Lista de Chamada de Monitoria
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 10h30 - 12h10
+    - Qui, 10h30 - 12h10
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 10
+
+
+## Monitores presentes
+
+ N | Nome Completo do Monitor                                   | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Alex Bruno Seabra                                          | @aalexbrunno              |
+
+
+## Alunos presentes
+
+ N | Nome Completo do Aluno                                     | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+02 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+03 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+04 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+05 | Joao Alves Pereira Neto                                    | @joaoneto                 |
+06 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+07 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+
+kcp@hydra:~/chamada2020s2/monitoria/informatica (master, [])
+[20210822.170438, !3150]$ cd ..
+kcp@hydra:~/chamada2020s2/monitoria (master, [])
+[20210822.170442, !3151]$ cd ..
+kcp@hydra:~/chamada2020s2 (master, [])
+[20210822.170444, !3151]$ cd informatica
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170450, !3152]$ la
+total 52K
+drwxrws--- 2 kcp proof 4.0K 2021-08-22 17:03 .
+drwxrws--- 8 kcp proof 4.0K 2021-06-19 16:36 ..
+-rw-rw---- 1 kcp proof 3.9K 2021-06-29 09:07 2020s2-01-informatica.md
+-rw-rw---- 1 kcp proof 3.8K 2021-06-29 09:07 2020s2-02-informatica.md
+-rw-rw---- 1 kcp proof 3.8K 2021-07-06 23:45 2020s2-03-informatica.md
+-rw-rw---- 1 kcp proof 3.9K 2021-07-14 22:54 2020s2-04-informatica.md
+-rw-rw---- 1 kcp proof 3.6K 2021-07-22 23:04 2020s2-05-informatica.md
+-rw-rw---- 1 kcp proof 3.5K 2021-07-28 12:18 2020s2-06-informatica.md
+-rw-rw---- 1 kcp proof 3.1K 2021-08-05 09:10 2020s2-07-informatica.md
+-rw-rw---- 1 kcp proof 3.1K 2021-08-10 18:08 2020s2-08-informatica.md
+-rw-rw---- 1 kcp proof 2.8K 2021-08-16 20:02 2020s2-09-informatica.md
+-rw-rw---- 1 kcp proof 2.5K 2021-08-22 17:03 2020s2-10-informatica.md
+-rw-rw---- 1 kcp proof  609 2021-06-18 20:22 2020s2-SS-informatica.md
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170451, !3153]$ cat  2020s2-10-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: SS
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+02 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+03 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+04 | Silas Natanael Silva De Souza                              | @silas210520001           |
+05 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+06 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+07 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+08 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+09 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+10 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+11 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+12 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+13 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+14 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+15 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+16 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+17 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+18 | Artur Callou Da Cruz                                       | @arturccruz               |
+19 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+20 | Rennan Reis Peinado                                        | @rennan2020               |
+21 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+22 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170458, !3154]$ la
+total 52K
+drwxrws--- 2 kcp proof 4.0K 2021-08-22 17:03 .
+drwxrws--- 8 kcp proof 4.0K 2021-06-19 16:36 ..
+-rw-rw---- 1 kcp proof 3.9K 2021-06-29 09:07 2020s2-01-informatica.md
+-rw-rw---- 1 kcp proof 3.8K 2021-06-29 09:07 2020s2-02-informatica.md
+-rw-rw---- 1 kcp proof 3.8K 2021-07-06 23:45 2020s2-03-informatica.md
+-rw-rw---- 1 kcp proof 3.9K 2021-07-14 22:54 2020s2-04-informatica.md
+-rw-rw---- 1 kcp proof 3.6K 2021-07-22 23:04 2020s2-05-informatica.md
+-rw-rw---- 1 kcp proof 3.5K 2021-07-28 12:18 2020s2-06-informatica.md
+-rw-rw---- 1 kcp proof 3.1K 2021-08-05 09:10 2020s2-07-informatica.md
+-rw-rw---- 1 kcp proof 3.1K 2021-08-10 18:08 2020s2-08-informatica.md
+-rw-rw---- 1 kcp proof 2.8K 2021-08-16 20:02 2020s2-09-informatica.md
+-rw-rw---- 1 kcp proof 2.5K 2021-08-22 17:03 2020s2-10-informatica.md
+-rw-rw---- 1 kcp proof  609 2021-06-18 20:22 2020s2-SS-informatica.md
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170502, !3155]$ cat
+cat  2020s2-07-informatica.md
+cat  2020s2-07-informatica.md
+^[
+
+[
+
+020s2-07-informatica.md
+ 2020s2-07-informatica.md
+
+
+^C
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170533, !3156]$ cat  2020s2-07-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 07
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+02 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+03 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+04 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+05 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+06 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+07 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+08 | Artur Callou Da Cruz                                       | @arturccruz               |
+09 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+10 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+11 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+12 | Rennan Reis Peinado                                        | @rennan2020               |
+13 | Maria Isabel Do Nascimento Freitas                         | @zabel-f                  |
+14 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+15 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+16 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+17 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+18 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+19 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+20 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+21 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+22 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+23 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+24 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+25 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+26 | Guilherme Rodrigues Chaves Do Nascimento                   | @Guigarcn350              |
+27 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+28 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+29 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170536, !3157]$ la
+total 52K
+drwxrws--- 2 kcp proof 4.0K 2021-08-22 17:03 .
+drwxrws--- 8 kcp proof 4.0K 2021-06-19 16:36 ..
+-rw-rw---- 1 kcp proof 3.9K 2021-06-29 09:07 2020s2-01-informatica.md
+-rw-rw---- 1 kcp proof 3.8K 2021-06-29 09:07 2020s2-02-informatica.md
+-rw-rw---- 1 kcp proof 3.8K 2021-07-06 23:45 2020s2-03-informatica.md
+-rw-rw---- 1 kcp proof 3.9K 2021-07-14 22:54 2020s2-04-informatica.md
+-rw-rw---- 1 kcp proof 3.6K 2021-07-22 23:04 2020s2-05-informatica.md
+-rw-rw---- 1 kcp proof 3.5K 2021-07-28 12:18 2020s2-06-informatica.md
+-rw-rw---- 1 kcp proof 3.1K 2021-08-05 09:10 2020s2-07-informatica.md
+-rw-rw---- 1 kcp proof 3.1K 2021-08-10 18:08 2020s2-08-informatica.md
+-rw-rw---- 1 kcp proof 2.8K 2021-08-16 20:02 2020s2-09-informatica.md
+-rw-rw---- 1 kcp proof 2.5K 2021-08-22 17:03 2020s2-10-informatica.md
+-rw-rw---- 1 kcp proof  609 2021-06-18 20:22 2020s2-SS-informatica.md
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170549, !3158]$ cat  2020s2-08-informatica.md
+i# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 08
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+02 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+03 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+04 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+05 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+06 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+07 | Silas Natanael Silva De Souza                              | @silas210520001           |
+08 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+09 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+10 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+11 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+12 | Artur Callou Da Cruz                                       | @arturccruz               |
+13 | Maria Isabel Do Nascimento Freitas                         | @zabel-f                  |
+14 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+15 | Rennan Reis Peinado                                        | @rennan2020               |
+16 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+17 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+18 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+19 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+20 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+21 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+22 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+23 | Bruno Schwamborn                                           | @mactoka                  |
+24 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+25 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+26 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+27 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+28 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+29 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170557, !3159]$ cat  2020s2-09-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 09
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+02 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+03 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+04 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+05 | Artur Callou Da Cruz                                       | @arturccruz               |
+06 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+07 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+08 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+09 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+10 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+11 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+12 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+13 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+14 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+15 | Rennan Reis Peinado                                        | @rennan2020               |
+15 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+16 | Rian Carlos Rogaciano Da Silva                             | @rehib                    |
+17 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+18 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+19 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+20 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+20 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+21 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+22 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+23 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+24 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170604, !3160]$ cd ..
+kcp@hydra:~/chamada2020s2 (master, [])
+[20210822.170614, !3161]$ cd ..
+kcp@hydra:~
+[20210822.170616, !3161]$ la
+total 292K
+drwxrws--x  13 kcp  proof 4.0K 2021-08-22 17:04 .
+drwxr-xr-x 105 root staff 4.0K 2021-07-27 01:41 ..
+-rw-rw----   1 kcp  proof   73 2017-03-06 22:55 .Renviron
+-rw-rw----   1 kcp  proof  366 2018-07-25 12:36 .astylerc
+-r--r-----   1 kcp  proof 5.7K 2021-06-12 23:52 .bashrc
+-r--r-----   1 kcp  proof  946 2021-06-30 15:15 .bash_aliases
+-r--r-----   1 kcp  proof 7.7K 2020-09-08 22:15 .bash_functions
+-rw-rw----   1 kcp  proof  75K 2021-08-22 17:06 .bash_history
+-r--r-----   1 kcp  proof 1.2K 2020-10-26 01:23 .bash_logout
+drwxrws---   3 kcp  proof 4.0K 2021-06-16 13:47 .cache
+drwxrws---   2 kcp  proof 4.0K 2021-02-06 23:51 .calendar
+drwxrws---   6 kcp  proof 4.0K 2021-06-14 21:06 .config
+-rw-rw----   1 kcp  proof   45 2019-05-24 20:53 .git
+drwxrws---   3 kcp  proof 4.0K 2021-06-14 21:05 .gnupg
+-rw-rw----   1 kcp  proof 2.9K 2019-03-21 22:15 .inputrc
+-rw-rw----   1 kcp  proof 1.2K 2016-04-26 00:51 .mbox
+-rw-rw----   1 kcp  proof   97 2021-06-09 19:32 .muttrc
+-rw-rw----   1 kcp  proof   51 2016-07-18 20:37 .nofinger
+-rw-rw----   1 kcp  proof  645 2021-07-03 00:16 .octaverc
+-rw-rw----   1 kcp  proof  389 2021-07-03 00:16 .octave_hist
+-rw-rw-r--   1 kcp  proof  162 2021-06-28 18:23 .plan
+-r--r-----   1 kcp  proof 1.8K 2021-06-29 13:13 .profile
+-rw-rw-r--   1 kcp  proof  323 2021-06-16 14:45 .project
+-rw-rw----   1 kcp  proof  12K 2018-07-25 13:28 .python_history
+-rw-rw----   1 kcp  proof  112 2019-03-22 16:53 .splintrc
+drwx--S---   2 kcp  proof 4.0K 2021-08-22 17:02 .ssh
+drwxrws---   4 kcp  proof 4.0K 2021-06-23 14:17 .vim
+-rw-rw----   1 kcp  proof  34K 2021-08-22 17:04 .viminfo
+-rw-rw----   1 kcp  proof 7.6K 2021-06-14 18:55 .vimrc
+-rw-rw----   1 kcp  proof 9.4K 2021-06-18 02:28 TODO-FEITO.txt
+drwxrws---   9 kcp  proof 4.0K 2021-06-28 12:29 chamada1919s1
+drwxrws---   8 kcp  proof 4.0K 2021-06-19 16:36 chamada2020s2
+drwxrws---   3 kcp  proof 4.0K 2021-07-28 12:31 grupos
+drwxrws---   6 kcp  proof 4.0K 2021-07-11 10:58 informatica
+-rw-rw----   1 kcp  proof  14K 2021-06-12 22:46 makefile
+drwxrws---   4 kcp  proof 4.0K 2021-06-29 23:35 programauto
+kcp@hydra:~
+[20210822.170617, !3162]$ cd informatica
+kcp@hydra:~/informatica
+[20210822.170629, !3163]$ la
+total 24K
+drwxrws---  6 kcp proof 4.0K 2021-07-11 10:58 .
+drwxrws--x 13 kcp proof 4.0K 2021-08-22 17:04 ..
+drwxrws---  3 kcp proof 4.0K 2021-07-19 19:04 gitlearn-git2learn
+drwxrws---  7 kcp proof 4.0K 2021-08-11 13:50 rascunhos
+drwxrws---  4 kcp proof 4.0K 2021-06-18 09:10 teste
+drwxrws---  7 kcp proof 4.0K 2021-08-16 20:13 trabalhos
+kcp@hydra:~/informatica
+[20210822.170630, !3164]$ cd chamada2020s2
+-bash: cd: chamada2020s2: No such file or directory
+kcp@hydra:~/informatica
+[20210822.170659, !3165]$ cd ..
+kcp@hydra:~
+[20210822.170704, !3166]$ cd chamada2020s2
+kcp@hydra:~/chamada2020s2 (master, [])
+[20210822.170707, !3167]$ cd informatica
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170713, !3168]$ cat chamada2020s2
+cat: chamada2020s2: No such file or directory
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170717, !3169]$
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170718, !3169]$ cat 2020s2-06-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 06
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+02 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+03 | Rennan Reis Peinado                                        | @rennan2020               |
+04 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+05 | Guilherme Rodrigues Chaves Do Nascimento                   | @Guigarcn350              |
+06 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+07 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+08 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+09 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+10 | Artur Callou Da Cruz                                       | @arturccruz               |
+11 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+12 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+13 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+14 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+15 | Jose Eduardo Oliveira Cavalcanti lupa                      | @EduardiTorre             |
+16 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+17 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+18 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+19 | Vinicius Marzo De Araujo                                   | @viniciusmarzo752         |
+20 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+21 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+22 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+23 | Maria isabel Do Nascimento Freitas                         | @zabel-f                  |
+24 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+25 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+26 | Bruno Schwamborn                                           | @mactoka                  |
+27 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+28 | Silas Natanael Silva De Souza                              | @silas210520001           |
+29 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+30 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+31 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+32 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+33 | Lucas Silva De Lima                                        | @lucas-eng18              |
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170731, !3170]$ cat 2020s2-05-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 05
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+02 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+03 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+04 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+05 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+06 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+07 | Artur Callou Da Cruz                                       | @arturccruz               |
+08 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+09 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+10 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+11 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+12 | Silas Natanael Silva De Souza                              | @silas210520001           |
+13 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+14 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+15 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+16 | Rennan Reis Peinado                                        | @rennan2020               |
+17 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+18 | Guilherme Vieira Barros De Moura                           | @Guibarrosmm              |
+19 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+20 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+21 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+22 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+23 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+24 | Vinicius Marzo De Araujo                                   | @viniciusmarzo752         |
+25 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+26 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+27 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+28 | Maria Isabel Do Nascimento Freitas                         | @zabel-f                  |
+29 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+30 | Lucas Silva De Lima                                        | @lucas-eng18              |
+31 | Bruno Schwamborn                                           | @mactoka                  |
+32 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+33 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+34 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+
+
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170740, !3171]$ cat 2020s2-04-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 04
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+02 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+03 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+04 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+05 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+06 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+07 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+08 | Artur Callou Da Cruz                                       | @arturccruz               |
+09 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+10 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+11 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+12 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+13 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+14 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+15 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+16 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+17 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+18 | Vinicius Marzo De Araujo                                   | @viniciusmarzo752         |
+19 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+20 | Guilherme Vieira Barros De Moura                           | @Guibarrosmm              |
+21 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+22 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+23 | Rennan Reis Peinado                                        | @rennan2020               |
+24 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+25 | Bruno Schwamborn                                           | @mactoka                  |
+26 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+27 | Silas Natanael Silva De Souza                              | @silas210520001           |
+28 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+29 | Luiz Moreira Dos Santos Neto                               | @luiznetoVSA              |
+30 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+31 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+32 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+33 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+34 | Maria Isabel Do Nascimeto Freitas                          | @zabel-f                  |
+35 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+36 | Lucas Silva De Lima                                        | @lucas-eng18              |
+37 | Rennan Reis Peinado                                        | @rennan2020               |
+
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170749, !3172]$ cat 2020s2-03-informatica.md
+Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 03
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+02 | Vinicius Marzo De Araujo                                   | @viniciusmarzo752         |
+03 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+04 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+05 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+06 | Artur Callou Da Cruz                                       | @arturccruz               |
+07 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+08 | Rennan Reis Peinado                                        | @rennan2020               |
+09 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+10 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+11 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+12 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+13 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+14 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+15 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+16 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+17 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+18 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+19 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+20 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+21 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+21 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+22 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+23 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+24 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+25 | Luiz Moreira Dos Santos Neto                               | @luiznetoVSA              |
+26 | Bruno Schwamborn                                           | @mactoka                  |
+27 | Silas Natanael Silva De Souza                              | @silas210520001           |
+28 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+29 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+30 | Guilherme Vieira Barros De Moura                           | @Guibarrosmm              |
+31 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+32 | Maria Isabel Do Nascimento Freitas                         | @zabel-f                  |
+33 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+34 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+35 | Lucas Silva De Lima                                        | @lucas-eng18              |
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170800, !3173]$ cat 2020s2-02-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 02
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Lara Vitoria Morais Nogueira                               | @lvmn2                    |
+02 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+03 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+04 | Joao Alves Pereira Neto                                    | @joaoneto420              |
+05 | Silas Natanael Silva De Souza                              | @silas210520001           |
+06 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+07 | Artur Callou Da Cruz                                       | @arturccruz               |
+08 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+09 | Bruno Schwamborn                                           | @mactoka                  |
+10 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+11 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+12 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+13 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+14 | Rian Carlos Rogaciano Da Silva                             | @rehib                    |
+15 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+16 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+17 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+18 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+19 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+20 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+21 | Lucas Silva De Lima                                        | @lucas-eng18              |
+22 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+23 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+24 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+25 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+26 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+27 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+28 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+29 | Guilherme Vieira Barros De Moura                           | @Guibarrosmm              |
+30 | Rennan Reis Peinado                                        | @rennan2020               |
+31 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+32 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+33 | Luiz Moreira Dos Santos Neto                               | @luiznetoVSA              |
+34 | Maria Isabel Do Nascimento Freitas                         | @zabel-f                  |
+35 | Vinicius Marzo De Araujo                                   | @viniciusmarzo752         |
+36 | Paulo Henrique Carneiro de Vasconcelos                     | @178230                   |
+kcp@hydra:~/chamada2020s2/informatica (master, [])
+[20210822.170811, !3174]$ cat 2020s2-01-informatica.md
+# Lista de Chamada
+
+* Disciplina: Informatica para Controle e Automacao
+* Turma: RU
+* Periodo: 2020s2
+* Horario:
+    - Qua, 13h50 - 15h30
+    - Qui, 13h50 - 15h30
+* Prof. Dr. Ruben Carlo Benante
+
+# Semana: 01
+
+
+## Alunos presentes
+
+ N | Nome Completo                                              | Usuario Github            |
+---|------------------------------------------------------------|---------------------------|
+01 | Mateus Simplicio De Barros                                 | @msimplicio8243           |
+02 | Marcos Andre Estrela Santos Junior                         | @estrelanony              |
+03 | Bruno Schwamborn                                           | @mactoka                  |
+04 | Artur Callou Da Cruz                                       | @arturccruz               |
+05 | Luiz Moreira Dos Santos Neto                               | @luiznetoVSA              |
+06 | Thiago De Azevedo Cavendish                                | @thcupe                   |
+07 | Paulo Henrique Carneiro De Vasconcelos                     | @178230                   |
+08 | Laura Kely Monteiro Da Silva                               | @LauraM358                |
+09 | Silas Natanael Silva De Souza                              | @silas210520001           |
+10 | Lara Vitoria Morais Nogueira                               | @lvmn                     |
+11 | Kattine Costa Pedrosa                                      | @kcpedrosa                |
+12 | Vitor Jose Alves De Freitas                                | @VitorFreitas007          |
+13 | Maria Isabel Do Nascimento Freitas                         | @zabel-f                  |
+14 | Matheus Luiz Ferreira Dos Santos                           | @MatheusLuizz             |
+15 | Rodolfo Prazim De Oliveira Barros                          | @RodolfoPrazim            |
+16 | Jose Eduardo Oliveira Cavalcanti Lupa                      | @EduardiTorre             |
+17 | Luiz Carlos Guedes Estelita Neto                           | @ProfessorLokii           |
+18 | Rian Carlos Rogaciano Da Silva                             | @Rehib                    |
+19 | Victor Schmitz Donato Cavalcanti                           | @vic7orSchmitz            |
+20 | Lucas Melo Da Silva                                        | @lucasmelo9               |
+21 | Lucas Silva De Lima                                        | @lucas-eng18              |
+22 | Maria Cecilia Galvao Da Silva Jota                         | @ceciliagalvao            |
+23 | Guilherme Rodrigues Chaves Do Nascimento                   | @GuigaRCN350              |
+24 | Davi Austregesilo Nepomuceno                               | @davinepo                 |
+25 | Joao Victor Clemente Da Solidade                           | @Joaovictorclemente       |
+26 | Christopher Coutinho De Lucena Melo                        | @christopherrcm           |
+27 | Ulisses Mosart Sobrinho                                    | @UlissesMSob              |
+28 | Felipe Fonseca Rabelo                                      | @FelipeFonseca03          |
+29 | Aline Pimentel Camara Ferreira                             | @AlinePimentel            |
+30 | Antonio Carlos Lustoza Lemos Filho                         | @tonimito                 |
+31 | Vinicius Marzo De Araujo                                   | @viniciusmarzo752         |
+32 | Filipe Mateus Figueiredo Silva                             | @Filipe-08                |
+33 | joao alves pereira neto                                    | @joaoneto420              |
+34 | Katarina Galvao Da Silva Cavalcanti                        | @Zagatt-o                 |
+35 | Bernardo Lima Milhomens Salomoni                           | @BernaSalomoni            |
+36 | Guilherme Vieira Barros De Moura                           | @Guibarrosmm              |
+37 | Rennan Reis Peinado                                        | @rennan2020               |

@@ -1,0 +1,140 @@
+% Puzzle Zebra
+% 1. cor
+% 2. nacionalidade
+% 3. bebida
+% 4. cigarro
+% 5. pet
+% 6. numero da casa
+
+all_members([H],L2) :- membro(H,L2).
+all_members([H|T],L2) :- membro(H,L2), all_members(T, L2).
+
+% FATOS %
+%Existem 15 fatos para solucionar duas questões.
+
+%Fatos:
+
+%1. Há cinco casas coloridas em uma rua, cada uma tem um dono, que tem um animal, um cigarro preferido e uma bebida preferida.
+%2. O Inglês mora na casa vermelha.
+%3. O Espanhol tem um cachorro.
+%4. Na casa verde se bebe café.
+%5. O Ucraniano bebe chá.
+%6. A casa verde fica imediatamente à direita da casa branca.
+%7. O fumante de Winston tem uma serpente.
+%8. Na casa amarela se fuma Kool.
+%9. Na casa do meio se bebe leite.
+%10. O Norueguês mora na primeira casa da esquerda.
+%11. O fumante de Chesterfield mora vizinho do dono da raposa.
+%12. Na casa vizinha da casa com um cavalo se fuma Kool.
+%13. O fumante de Lucky Strike bebe suco.
+%14. O Japonês fuma Kent.
+%15. O Norueguês mora vizinho da casa azul.
+
+%Pergunta-se:
+
+%Q1: quem tem uma zebra?
+%Q2: quem bebe água?
+ 
+% ####################################################################
+% REGRAS
+% ####################################################################
+ 
+% REGRA 1 (5 casas) 
+ 
+regra2(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [vermelho,ingles,,,,].
+ 
+regra3(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [,espanhol,,,cao,].
+ 
+regra4(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [verde,,cafe,,,].
+ 
+regra5(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [,ucraniano,cha,,,].
+ 
+regra6(H1,H2,H3,H4,H5) :-
+membro(HL,[H1,H2,H3,H4,H5]),
+membro(HR,[H1,H2,H3,H4,H5]),
+HL = [branco,,,,,NrL],
+HR = [verde,,,,,NrR],
+NrR-NrL =:= 1.
+ 
+regra7(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [,,,winstom,serpente,].
+ 
+regra8(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [amarela,,,kool,,].
+ 
+regra9(,,H3,,) :-
+H3 = [,,leite,,,3].
+ 
+regra10(H1,,,,) :-
+H1 = [,noruegues,,,,1].
+ 
+regra11(H1,H2,H3,H4,H5) :-
+membro(HL,[H1,H2,H3,H4,H5]),
+membro(HR,[H1,H2,H3,H4,H5]),
+HL = [,,,chesterfield,,NrL],
+HR = [,,,,raposa,NrR],
+abs(NrL-NrR,1).
+ 
+regra12(H1,H2,H3,H4,H5) :-
+membro(HL,[H1,H2,H3,H4,H5]),
+membro(HR,[H1,H2,H3,H4,H5]),
+HL = [,,,kool,,NrL],
+HR = [,,,,cavalo,NrR],
+abs(NrL-NrR,1).
+ 
+regra13(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [,,laranja,luckystrike,,].
+ 
+regra14(H1,H2,H3,H4,H5) :-
+membro(H, [H1,H2,H3,H4,H5]),
+H = [,japones,,kent,,].
+ 
+regra15(H1,H2,H3,H4,H5) :-
+membro(HL,[H1,H2,H3,H4,H5]),
+membro(HR,[H1,H2,H3,H4,H5]),
+HL = [,noruegues,,,,NrL],
+HR = [azul,,,,,NrR],
+abs(NrL-NrR,1).
+ 
+% ####################################################################
+% solucao
+% ####################################################################
+ 
+solucao(H1,H2,H3,H4,H5) :-
+
+H1 = [H1_cor,H1_nac,H1_beb,H1_cig,H1_pet,1],
+H2 = [H2_cor,H2_nac,H2_beb,H2_cig,H2_pet,2],
+H3 = [H3_cor,H3_nac,H3_beb,H3_cig,H3_pet,3],
+H4 = [H4_cor,H4_nac,H4_beb,H4_cig,H4_pet,4],
+H5 = [H5_cor,H5_nac,H5_beb,H5_cig,H5_pet,5],
+
+regra2(H1,H2,H3,H4,H5),
+regra3(H1,H2,H3,H4,H5),
+regra4(H1,H2,H3,H4,H5),
+regra5(H1,H2,H3,H4,H5),
+regra6(H1,H2,H3,H4,H5),
+regra7(H1,H2,H3,H4,H5),
+regra8(H1,H2,H3,H4,H5),
+regra9(H1,H2,H3,H4,H5),
+regra10(H1,H2,H3,H4,H5),
+regra12(H1,H2,H3,H4,H5),
+regra13(H1,H2,H3,H4,H5),
+regra14(H1,H2,H3,H4,H5),
+regra15(H1,H2,H3,H4,H5),
+
+all_members([branco, verde, vermelho, azul, amarelo], [H1_cor,H2_cor,H3_cor,H4_cor,H5_cor]),
+all_members([espanhol, japones, ingles, ucraniano, noruegues], [H1_nac,H2_nac,H3_nac,H4_nac,H5_nac]),
+all_members([laranja, cafe, leite, cha, agua], [H1_beb,H2_beb,H3_beb,H4_beb,H5_beb]),
+all_members([luckystrike, kent, winstom, chesterfield, kool], [H1_cig,H2_cig,H3_cig,H4_cig,H5_cig]),
+all_members([cao, zebra, serpente, cavalo, raposa], [H1_pet,H2_pet,H3_pet,H4_pet,H5_pet]).

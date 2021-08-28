@@ -1,0 +1,312 @@
+kcp@hydra:~
+[20210728.122120, !2180]$ git clone git@hydra:repos/2020s2/grupos.git
+Cloning into 'grupos'...
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+remote: Enumerating objects: 311, done.
+remote: Counting objects: 100% (311/311), done.
+remote: Compressing objects: 100% (310/310), done.
+remote: Total 311 (delta 200), reused 0 (delta 0)
+Receiving objects: 100% (311/311), 36.71 KiB | 2.16 MiB/s, done.
+Resolving deltas: 100% (200/200), done.
+kcp@hydra:~
+[20210728.122325, !2181]$ ls -a
+.          .bash_aliases    .bash_logout  .calendar      .config  grupos       makefile  .nofinger     .plan        .project         .splintrc       .vim
+..         .bash_functions  .bashrc       chamada1919s1  .git     informatica  .mbox     .octave_hist  .profile     .python_history  .ssh            .viminfo
+.astylerc  .bash_history    .cache        chamada2020s2  .gnupg   .inputrc     .muttrc   .octaverc     programauto  .Renviron        TODO-FEITO.txt  .vimrc
+kcp@hydra:~
+[20210728.122327, !2182]$ git pull
+fatal: not a git repository: /home/kcp/"/don't try git in your HOME folder"
+kcp@hydra:~
+[20210728.122330, !2183]$ cd grupos
+kcp@hydra:~/grupos (master, [])
+[20210728.122339, !2184]$ git pull
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+Already up to date.
+kcp@hydra:~/grupos (master, [])
+[20210728.122342, !2185]$ ls -a
+.   AUTHORS0-discreta     AUTHORS1-discreta     AUTHORS2-discreta     AUTHORS3-discreta     AUTHORS4-discreta     .git
+..  AUTHORS0-informatica  AUTHORS1-informatica  AUTHORS2-informatica  AUTHORS3-informatica  AUTHORS4-informatica  README.md
+kcp@hydra:~/grupos (master, [])
+[20210728.122406, !2186]$ git pull
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+Already up to date.
+kcp@hydra:~/grupos (master, [])
+[20210728.122421, !2187]$ cat README.md
+## Divisão de Grupos
+
+### Procedimento
+
+* Lembre-se de fazer sempre `$ git pull` no ramo atual antes de alterar qualquer repositório.
+* Este repositório tem apenas o ramo "master", como mostra `$ git br --all`.
+
+A. Se você é o primeiro do seu grupo:
+    A.1. Copie o arquivo AUTHORS0-disciplina para AUTHORS1-disciplina
+    A.2. Se necessário, altere o título na primeira linha
+    A.3. Altere o número do grupo e o nome na linha === Students ... ===
+         Tema: sobrenome de um autor famoso
+    A.4. Apague todos os nomes exceto o seu da lista de alunos
+    A.5. Faça um git add e git commit no seu novo arquivo de grupo
+    A.6. Abra o arquivo AUTHORS0-disciplina e apague seu nome do grupo ZERO
+    A.7. Faça um novo commit para esta alteração
+    A.8. Faça um único push para ambos commits
+
+B. Se você não é o primeiro no novo grupo:
+    B.1. Abra o arquivo AUTHORSX-disciplina do seu grupo
+    B.2. Adicione seu nome e email embaixo da lista de nomes
+    B.3. Faça um git commit na alteração que fez no seu arquivo de grupo
+    B.4. Abra o arquivo AUTHORS0-disciplina e apague seu nome do grupo ZERO
+    B.5. Faça um novo commit para esta alteração do arquivo ZERO
+    B.6. Faça um único push para ambos commits
+
+
+Prontinho, você está no novo grupo.
+
+Alunos que não mudarem de grupo, trabalharão no grupo ZERO.
+
+### Condições
+
+* Tamanho dos grupos: de 5 a 7 pessoas
+* Prazo para divisão dos grupos: 2021-07-29
+
+## Orientador
+
+* Prof. Dr. Ruben Carlo Benante
+* Date: 2021-07-26
+
+kcp@hydra:~/grupos (master, [])
+[20210728.122433, !2188]$ cat AUTHORS3-informatica
+= Title: Sistema de Controle de Biblioteca Pessoal =
+
+== Authors ==
+
+=== Coordinator ===
+
+* Prof. Dr. Ruben Carlo Benante <rcb@upe.br>
+
+=== Students - Group 03 - Informatica: Maria ===
+
+1. Ulisses Mosart Sobrinho <ulimosart5.0@gmail.com>
+2. Mateus Simplicio De Barros <msimplicio8243@gmail.com>
+3. Thiago De Azevedo Cavendish <thiagoazevedocavendish@gmail.com>
+4. Filipe Mateus Figueiredo Silva <filipe.mt08@gmail.com>
+5. Bernardo Lima Milhomens Salomoni <salomonibernardo@gmail.com>
+
+kcp@hydra:~/grupos (master, [])
+[20210728.122553, !2189]$ cat  AUTHORS2-informatica
+= Title: Sistema de Controle de Biblioteca Pessoal =
+
+== Authors ==
+
+=== Coordinator ===
+
+* Prof. Dr. Ruben Carlo Benante <rcb@upe.br>
+
+=== Students - Group 02 - Informatica: Adams ===
+
+1. Guilherme Rodrigues Chaves Do Nascimento <GuilhermeRCN350@gmail.com>
+2. Joao Alves Pereira Neto <nerom420@gmail.com>
+3. Rian Carlos Rogaciano Da Silva <riancarlosr08@gmail.com>
+4. Lara Vitoria Morais Nogueira <lmoraisn20@gmail.com>
+5.
+
+kcp@hydra:~/grupos (master, [])
+[20210728.122614, !2190]$ git pull
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 4), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+From hydra:repos/2020s2/grupos
+   afb4a10..f5efacf  master     -> origin/master
+Updating afb4a10..f5efacf
+Fast-forward
+ AUTHORS0-discreta | 1 -
+ AUTHORS4-discreta | 2 +-
+ 2 files changed, 1 insertion(+), 2 deletions(-)
+kcp@hydra:~/grupos (master, [])
+[20210728.122714, !2191]$ cat  AUTHORS2-informatica
+= Title: Sistema de Controle de Biblioteca Pessoal =
+
+== Authors ==
+
+=== Coordinator ===
+
+* Prof. Dr. Ruben Carlo Benante <rcb@upe.br>
+
+=== Students - Group 02 - Informatica: Adams ===
+
+1. Guilherme Rodrigues Chaves Do Nascimento <GuilhermeRCN350@gmail.com>
+2. Joao Alves Pereira Neto <nerom420@gmail.com>
+3. Rian Carlos Rogaciano Da Silva <riancarlosr08@gmail.com>
+4. Lara Vitoria Morais Nogueira <lmoraisn20@gmail.com>
+5.
+
+kcp@hydra:~/grupos (master, [])
+[20210728.122724, !2192]$ git pull
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+Already up to date.
+kcp@hydra:~/grupos (master, [])
+[20210728.122823, !2193]$ git pull
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+Already up to date.
+kcp@hydra:~/grupos (master, [])
+[20210728.122904, !2193]$ ls -a
+.   AUTHORS0-discreta     AUTHORS1-discreta     AUTHORS2-discreta     AUTHORS3-discreta     AUTHORS4-discreta     .git
+..  AUTHORS0-informatica  AUTHORS1-informatica  AUTHORS2-informatica  AUTHORS3-informatica  AUTHORS4-informatica  README.md
+kcp@hydra:~/grupos (master, [])
+[20210728.122906, !2194]$ vim AUTHORS0-informatica
+kcp@hydra:~/grupos (master, [!])
+[20210728.122957, !2195]$ git add .
+kcp@hydra:~/grupos (master, [!])
+[20210728.123006, !2196]$ git cm "Erasing name Kattine Pedrosa/passing to group 02"
+[master af7cf3c] Erasing name Kattine Pedrosa/passing to group 02
+ 1 file changed, 1 deletion(-)
+kcp@hydra:~/grupos (master, [*])
+[20210728.123028, !2197]$ vim AUTHORS2-informatica
+kcp@hydra:~/grupos (master, [*!])
+[20210728.123131, !2198]$ git add .
+kcp@hydra:~/grupos (master, [*!])
+[20210728.123134, !2199]$ git cm "Add Kattine Pedrosa to group 02"
+[master c22709e] Add Kattine Pedrosa to group 02
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+kcp@hydra:~/grupos (master, [*])
+[20210728.123154, !2200]$ git push
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 662 bytes | 662.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote:
+remote: *** Checking your push update...
+remote:
+remote: *** Bypassing hook update checkup
+remote:
+remote: *** Malformed commit message.
+remote: *** Format is "course: Your Complete Name"
+remote: *** or "gitmailmap: Your Complete Name"
+remote:
+remote: *** Super user mode
+remote: *** Push update checked and passed OK!
+remote:
+To hydra:repos/2020s2/grupos.git
+   f5efacf..c22709e  master -> master
+kcp@hydra:~/grupos (master, [])
+[20210728.123157, !2201]$ git pull
+Debian GNU/Linux 10 - Buster
+Kernel x86_64 Linux 4.19.0-6
+Intel Core i5-2300  @ 3.1GHz
+RAM: 7911MB  Disk Quota: 4MB
+Hydra Server --- 10/Nov/2015
+server address: beco.poli.br
+You're entering a free world
+
+Already up to date.
+kcp@hydra:~/grupos (master, [])
+[20210728.123204, !2202]$ ls -a
+.   AUTHORS0-discreta     AUTHORS1-discreta     AUTHORS2-discreta     AUTHORS3-discreta     AUTHORS4-discreta     .git
+..  AUTHORS0-informatica  AUTHORS1-informatica  AUTHORS2-informatica  AUTHORS3-informatica  AUTHORS4-informatica  README.md
+kcp@hydra:~/grupos (master, [])
+[20210728.123209, !2203]$ cat  AUTHORS0-informatica
+= Title: Sistema de Controle de Biblioteca Pessoal =
+
+== Authors ==
+
+=== Coordinator ===
+
+* Prof. Dr. Ruben Carlo Benante <rcb@upe.br>
+
+=== Students - Group 00 - Informatica: Tolstoy ===
+
+* Artur Benjamin Monteiro Nascimento <email@domain.com>
+* Artur Callou Da Cruz <email@domain.com>
+* Aline Pimentel Camara Ferreira <email@domain.com>
+* Everton Jose Santos Paula <email@domain.com>
+* Guilherme Vieira Barros De Moura <email@domain.com>
+* Jose Eduardo Oliveira Cavalcanti Lupa <email@domain.com>
+* Julia Ferraz De Carli <email@domain.com>
+* Joao Victor Clemente Da Solidade <email@domain.com>
+* Katarina Galvao Da Silva Cavalcanti <email@domain.com>
+* Luiz Carlos Guedes Estelita Neto <email@domain.com>
+* Luiz Moreira Dos Santos Neto <email@domain.com>
+* Lucas Silva De Lima <email@domain.com>
+* Marcos Andre Estrela Santos Junior <email@domain.com>
+* Maria Isabel Do Nascimento Freitas <email@domain.com>
+* Matheus Luiz Ferreira Dos Santos <email@domain.com>
+* Paulo Henrique Carneiro De Vasconcelos <email@domain.com>
+* Rodolfo Prazim De Oliveira Barros <email@domain.com>
+* Silas Natanael Silva De Souza <email@domain.com>
+* Vinicius Marzo De Araujo <email@domain.com>
+
+kcp@hydra:~/grupos (master, [])
+[20210728.123215, !2204]$ cat AUTHORS2-informatica
+= Title: Sistema de Controle de Biblioteca Pessoal =
+
+== Authors ==
+
+=== Coordinator ===
+
+* Prof. Dr. Ruben Carlo Benante <rcb@upe.br>
+
+=== Students - Group 02 - Informatica: Adams ===
+
+1. Guilherme Rodrigues Chaves Do Nascimento <GuilhermeRCN350@gmail.com>
+2. Joao Alves Pereira Neto <nerom420@gmail.com>
+3. Rian Carlos Rogaciano Da Silva <riancarlosr08@gmail.com>
+4. Lara Vitoria Morais Nogueira <lmoraisn20@gmail.com>
+5. Kattine Costa Pedrosa <kattine.costa@gmail.com>
+
+
+kcp@hydra:~/grupos (master, [])
+[20210728.123258, !2205]$

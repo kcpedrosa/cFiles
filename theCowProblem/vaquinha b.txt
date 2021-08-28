@@ -1,0 +1,34 @@
+/*----------------Includes----------------*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/*-------------Chamando funcao-------------*/
+void vaquinhab(int a, int b, int c);
+
+/*----------------Programa----------------*/
+int main(void)
+{
+    /*-------------Variaveis--------------*/
+    int a,b,c;
+    srand(time(NULL)); // Funcao para que os aleatorios nao sejam iguais
+
+    a = 1 + rand() % 6;
+    b = rand() % 101;
+    c = -40 + rand() % 51;
+
+    printf("O dado(a): %i\nA porcentagem(b): %i\nA temperatura(c): %i\n", a, b, c);
+    vaquinhab(a, b, c);
+
+    return 0;
+}
+
+/*------------Funcao predefinida------------*/
+void vaquinhab(int a, int b, int c)
+{
+    printf("(funcao B): Voce... ");
+    if((4<a && a<=6 && b<40 && b<c) || (4<a && a<=6 && b>=40 && c>=a) || (a==4 && c<b))  /* modificar apenas essa linha! */
+        printf("ganhou a vaquinha!\n");
+    else
+        printf("nao ganhou a vaquinha!\n");
+}

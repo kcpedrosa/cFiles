@@ -1,0 +1,3 @@
+,+. 
+//in brainforce 
+//receives one interger and add one to it

@@ -1,0 +1,3 @@
+,>,< [ > [ >+ >+ << -] >> [- << + >>] <<< -] >>.
+//this program will multilply one number for another
+//and give the result

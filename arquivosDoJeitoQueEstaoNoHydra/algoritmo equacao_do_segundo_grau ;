@@ -1,0 +1,63 @@
+algoritmo equacao_do_segundo_grau ;
+  
+   variáveis
+     a : real;
+     b : real;
+     c : real;
+  delta : real;
+    x1 : real;
+    x2 : real;
+    r : real;
+  fim-variáveis
+ 
+  início
+ 
+  // leitura dos valores
+ 
+      imprima("Enter A value:\n");
+      a := leia();
+ 
+      imprima("Enter B value:\n");
+      b := leia();
+ 
+      imprima("Enter C value:\n");
+      c := leia();
+ 
+ 
+ 
+  //Delta analysis and root output
+ 
+      delta := ( (b*b)-(4*a*c) );
+
+ 	se (a = 0) então
+ 	 imprima("This is not a quadratic equation! ")
+ 	senão
+	     se (delta<0) então
+	     	imprima("DELTA is less than zero, so the roots are complex numbers, try other coefficients");
+	     senão
+	 
+	      r := raiz(delta);
+	 
+	 
+	      x1 := ((-b)+ r/(2*a));
+	 
+	      x2 := ((-b)- r/(2*a));
+	 
+	 
+	      imprima("root 1= ", x1);
+	      imprima("root 2 = ", x2);
+	     fim-se
+ 	fim-se
+  fim
+ 
+  //function that calculates the root of delta
+ 
+  função raiz(qua : real) : real
+  início
+      qua := 0.1;
+      enquanto (qua*qua < delta)
+      faça
+      qua := qua+0.1;
+      fim-enquanto
+      retorne qua;
+  fim
