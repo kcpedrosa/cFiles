@@ -1,0 +1,22 @@
+Resumo de hj:
+-como executar o programa 
+$ swipl -s nome.pl
+-como debugar:
+$ trace.
+- A diferença entre letra maiuscula e minúscula 
+- Uma noção de como criar uma regra
+- Mostrei como iniciar a lógica da árvore
+
+../../TODO-FEITO.txt, makefile, ../../chamada1919s1/AUTHORS, ../../chamada2020s2/AUTHORS, ../../grupos/README.md : 2021-09-05 : Realizar todas as tarefas listadas no arquivo TODO.txt e renomea-lo para TODO-FEITO.txt
+ex1.md  : 2021-09-05 : Escolher e dissertar sobre 10 exemplos de falacias logicas ( https://pt.wikipedia.org/wiki/Falacia )
+ex2.pl  : 2021-09-05 : Arvore genealogica em PROLOG (pai/mae, tio/tia, avoo/avoa, filho/filha, irmao/irma, primo/prima, neto/neta)
+ex3.pl  : 2021-09-05 : Soma dos elementos de uma lista
+ex4.pl  : 2021-09-05 : Dadas duas listas, retorne a soma, 2 a 2, em uma lista resposta
+ex6.pl  : 2021-09-05 : Fazer a uniao de duas listas com o predicado uniao(L1, L2, LUNIAO).
+ex7.pl  : 2021-09-05 : Fazer a interseccao de duas listas com o predicado interseccao(L1, L2, LINTER).
+ex8.pl  : 2021-09-08 : Dado um numero, retorne como resposta seu fatorial
+
+remember, typing ; inside hydra give us the "next" effect [ next logical conclusion ]
+https://www.youtube.com/playlist?list=PLN4rgoD9YhsVI36D3isSxIeB62ahhl5km
+[playlist prolog in portuguese ]
+https://swish.swi-prolog.org/   [online tool to exec code]

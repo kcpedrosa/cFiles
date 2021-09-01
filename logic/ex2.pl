@@ -2,12 +2,12 @@
 %Author: kcpedrosa
 %Data: 28/08/2021
 
-f(0,1).
+fatorial(0,1).
 
-f(N,R):-
+fatorial(N,R):-
     N > 0,
     M is N - 1,
-    f(M,S),
+    fatorial(M,S),
     R is N * S,
     !.
 
